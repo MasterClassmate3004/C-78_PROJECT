@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <title>
+        C-78 Project
+    </title>
+   </head>
+   <body>
+       <h1>My Family Book</h1>
+       <img id="photos" src="120654.jpg">
+       <button
+       type="button"onclick="nextmember()">
+           Next
+       </button>
+       <h3 id="membername">
+        The Family Book
+        </h3>
+        <script>
+            var name =[
+            "Sanjay Jain",
+            "Inku Jain",
+            "Kavya Jain",
+            "Nitya Jain"
+            ];
+            var images =[
+                "Sanjay.jpeg",
+                "Inku.jpeg",
+                "Kavya.jpeg",
+                "Nitya.jpeg"
+            ];
+            var i=0;
+            function nextmember()
+            {
+            document.getElementById("name").innerHTML=reasons[i];
+            document.getElementById("images").src=images[i];
+            i++;
+}
+            </script>
+   </body>
+</html>
